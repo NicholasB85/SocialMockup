@@ -1,0 +1,193 @@
+
+body {
+    max-height: 5000px;
+    background: lightgrey;
+    
+}
+
+header {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 265px;
+    background: linear-gradient(red, yellow)
+}
+
+nav {
+    width: 850px;
+    background-color: whitesmoke;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    position: absolute;
+    font-size: 40px;
+    left: 200px;
+    top: 138px;
+    color: white;
+}
+
+#like {
+    position: absolute;
+    left: 578px;
+    top: 239px;
+    height: 25px;
+    width: 45px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 25%;
+}
+
+#webname {
+    position: absolute;
+    top: 198px;
+    font-size: 28px;
+    color: blue;
+}
+
+.Timeline {
+    position: relative;
+}
+
+#timeline {
+    position: absolute;
+    float: left;
+    left: 200px;
+    font-size: 30px;
+}
+
+#about3 {
+    position: absolute;
+    float:left;
+    left: 315px;
+    font-size: 30px;
+    border-left: 1px solid black;
+}
+
+#welcome {
+    position: absolute;
+    float:left;
+    left: 415px;
+    font-size: 30px;
+    border-left: 1px solid black;
+}
+
+#fwb {
+    position: absolute;
+    float:left;
+    left: 545px;
+    font-size: 30px;
+    border-left: 1px solid black;
+}
+
+#more {
+    position: absolute;
+    float:left;
+    left: 615px;
+    font-size: 30px;
+    border-left: 1px solid black;
+}
+
+#picture {
+    position: absolute;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    left: 25px;
+    top: 137px;
+    z-index: 1;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.buttons {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: absolute;
+    float: left;
+    height: 34px;
+    width: 190px;
+    left: 610px;
+    top: 80px;
+    font-size: 22px;
+}
+
+#tbuttons {
+    border-collapse: collapse;
+}
+
+tr {
+    position: absolute;
+    top:153px;
+    left: 30px;
+}
+ td {
+    border: 2px solid black;
+    background-color:lightgray;
+    border-collapse: collapse;
+}
+
+#about {
+    position: relative;
+    margin: 0;
+    height: 200px;
+    width: 328px;
+    background-color: rgb(112, 112, 163);
+    top: 25px;
+    left: 727px;
+}
+
+#about2 {
+    position: relative;
+    margin: 0;
+    height: 300px;
+    width: 512px;
+    background-color: rgb(56, 56, 119);
+    left: 1065px;
+    bottom: 175px;
+    font-size: 20px;
+    color: white;
+}
+
+#picture2 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    left: 15px;
+    top: 15px;
+}
+
+hr {
+    position: absolute;
+    top: 44px;
+    border: 1px solid darkgrey;
+    left: 0px;
+    width: 99%;
+}
+
+hr.bottom {
+    position: absolute;
+    bottom: 34px;
+    border: 1px solid darkgrey;
+    left: 0px;
+    width: 99%;
+}
+#abouttext {
+    position: absolute;
+    font-size: 15px;
+    left: 11px;
+    top: -6px;
+}
+
+#about2text {
+    position: absolute;
+    font-size:20px;
+    left: 90px;
+    top: 15px;
+}
+
+
