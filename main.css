@@ -1,5 +1,6 @@
 
 body {
+    position: relative;
     max-height: 5000px;
     background: lightgrey;
     
@@ -131,29 +132,31 @@ tr {
 }
 
 #about {
-    position: relative;
+    position: absolute;
     margin: 0;
     height: 200px;
     width: 328px;
     background-color: rgb(112, 112, 163);
-    top: 25px;
-    left: 727px;
+    top: 338px;
+    left: 847px;
+    right: auto;
+    
 }
 
 #about2 {
-    position: relative;
+    position: absolute;
     margin: 0;
     height: 300px;
     width: 512px;
     background-color: rgb(56, 56, 119);
-    left: 1065px;
-    bottom: 175px;
+    left: 1186px;
+    top: 338px;
     font-size: 20px;
     color: white;
 }
 
 #picture2 {
-    position: absolute;
+    position: relative;
     height: 70px;
     width: 70px;
     background-color: white;
