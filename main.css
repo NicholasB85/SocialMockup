@@ -1,29 +1,23 @@
 
 body {
-    position: relative;
-    max-height: 5000px;
+    width: 850px;
     background: lightgrey;
+    margin: 0 auto;
     
 }
 
 header {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 850px;
     height: 265px;
     background: linear-gradient(red, yellow)
 }
 
 nav {
-    width: 850px;
     background-color: whitesmoke;
     height: 45px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-p {
+header p {
     position: absolute;
     font-size: 40px;
     left: 200px;
@@ -132,27 +126,28 @@ tr {
 }
 
 #about {
-    position: absolute;
+    position: relative;
+float: left;
     margin: 0;
     height: 200px;
     width: 328px;
     background-color: rgb(112, 112, 163);
-    top: 338px;
-    left: 847px;
+   
     right: auto;
     
 }
 
 #about2 {
-    position: absolute;
+float: left;
     margin: 0;
     height: 300px;
     width: 512px;
     background-color: rgb(56, 56, 119);
     left: 1186px;
-    top: 338px;
+    top: 50px;
     font-size: 20px;
     color: white;
+    margin-left: 10px;
 }
 
 #picture2 {
@@ -160,8 +155,7 @@ tr {
     height: 70px;
     width: 70px;
     background-color: white;
-    left: 15px;
-    top: 15px;
+float: left;
 }
 
 hr {
@@ -180,14 +174,13 @@ hr.bottom {
     width: 99%;
 }
 #abouttext {
-    position: absolute;
+
     font-size: 15px;
     left: 11px;
     top: -6px;
 }
 
 #about2text {
-    position: absolute;
     font-size:20px;
     left: 90px;
     top: 15px;
