@@ -17,6 +17,10 @@ nav {
     height: 45px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header p {
     position: absolute;
     font-size: 40px;
